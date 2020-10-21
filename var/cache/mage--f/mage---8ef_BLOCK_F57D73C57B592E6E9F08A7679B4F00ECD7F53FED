@@ -1,0 +1,113 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1603278817;s:6:"expire";i:1603365217;s:4:"tags";s:33:"8ef_CAT_P,8ef_BLOCK_HTML,8ef_MAGE";}
+
+        <div style="margin-bottom: 0;" class="owl-button-top above-padding below-padding block widget block-new-products grid">
+        <div class="page-title-main">
+            <strong role="heading" aria-level="2">New Products</strong>
+        </div>
+        <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <div class="slider-outer">
+                    <ol style="margin-bottom: 0;" class="product-widget-slider products list items product-items widget-new-grid">
+                                                                            <li class="product-item product-slider">                            <div class="product-item-info">
+                                <div class="product-img-main">
+                                    <a href="http://localhost:70/magento/index.php/bed.html" class="product-item-photo  add-border ">
+                                        <span class="product-image-container product-image-container-1">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:70/magento/pub/static/version1603274920/frontend/Hiddentechies/bizkick/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg"
+            loading="lazy"
+                            max-width="240"
+                max-height="300"
+                        alt="Bed"/></span>
+</span>
+<style>.product-image-container-1 {
+    width: 240px;
+}
+.product-image-container-1 span.product-image-wrapper {
+    padding-bottom: 125%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-1");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "240px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-1  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "125%";
+}</script>                                                                            </a>
+                                    <div class="product-item-inner">
+                                                                                    <div class="product actions product-item-actions">
+                                                <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:70\/magento\/index.php\/wishlist\/index\/add\/","data":{"product":1,"uenc":"aHR0cDovL2xvY2FsaG9zdDo3MC9tYWdlbnRvLw,,"}}'
+                                                           class="action towishlist" data-action="add-to-wishlist"
+                                                           title="Add to Wish List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                           data-post='{"action":"http:\/\/localhost:70\/magento\/index.php\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cDovL2xvY2FsaG9zdDo3MC9tYWdlbnRvLw,,"}}'
+                                                           title="Add to Compare">
+                                                            <span>Add to Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="product-item-details">
+                                    <strong class="product-item-name">
+                                        <a title="Bed"
+                                           href="http://localhost:70/magento/index.php/bed.html"
+                                           class="product-item-link">
+                                               Bed                                        </a>
+                                    </strong>
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="1" data-price-box="product-id-1">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-1-widget-new-grid"                data-price-amount="1000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">£1,000.00</span></span>
+        </span>
+
+</div>
+                                                                                                                
+                                                                            <div class="product-item-inner">
+                                            <div class="product-item-actions">
+                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                        data-post='{"action":"http:\/\/localhost:70\/magento\/index.php\/checkout\/cart\/add\/uenc\/aHR0cDovL2xvY2FsaG9zdDo3MC9tYWdlbnRvLw%2C%2C\/product\/1\/","data":{"product":"1","uenc":"aHR0cDovL2xvY2FsaG9zdDo3MC9tYWdlbnRvLw,,"}}'
+                                                                        type="button" title="Add to Cart">
+                                                                    <span>Add to Cart</span>
+                                                                </button>
+                                                                                                                                                                        </div>
+                                                                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                            </li>                                            </ol>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <script type="text/javascript" xml="space">
+        require(['jquery', 'bizkickowlcarousel'], function() {
+            jQuery(document).ready(function() {
+                jQuery(".product-widget-slider").owlCarousel({
+                    items: 5,
+                    itemsDesktop: [1199, 4],
+                    itemsDesktopSmall: [991, 4],
+                    itemsTablet: [767, 3],
+                    itemsTabletSmall: [639, 3],
+                    itemsMobile: [479, 2],
+                    pagination: false,
+                    navigationText: ["<div class='left-arrow'><i class='fa fa-angle-left'></i></div>", "<div class='right-arrow'><i class='fa fa-angle-right'></div>"],
+                    navigation: true,
+                });
+            });
+            jQuery(window).load(function() {
+                jQuery('.product-widget-slider .product-slider').show();
+            });
+        });
+    </script>
